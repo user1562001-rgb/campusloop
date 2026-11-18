@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- SEO -->
+<title>Create a Listing | Sell an Item on CampusLoop</title>
+<meta name="description" content="Try the CampusLoop listing builder: add a title, price and pick-up point, and see a live preview and quality checklist. Prototype only.">
+<link rel="canonical" href="https://user1562001-rgb.github.io/campusloop/create-listing.html">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Create a Listing | Sell an Item on CampusLoop">
+<meta property="og:description" content="Try the CampusLoop listing builder: add a title, price and pick-up point, and see a live preview and quality checklist. Prototype only.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://user1562001-rgb.github.io/campusloop/images/og.svg">
+<!-- Analytics: GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JJS2KJ63TC"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','G-JJS2KJ63TC');
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site"><div class="bar">
+<a class="logo" href="index.html"><img src="images/favicon.svg" alt="" width="28" height="28">CampusLoop</a>
+<button class="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav id="nav" aria-label="Main"><a href="index.html">Home</a><a href="textbooks.html">Browse</a><a href="sell-an-item.html" aria-current="page">Sell</a><a href="trust-centre.html">Trust Centre</a><a href="move-out-guide.html">Move-out drives</a><a href="blog.html">Blog</a><a href="about.html">About &amp; Help</a><button class="ghost" id="signin" type="button">Sign in</button></nav>
+</div></header>
+<main id="main">
+<nav class="chips" aria-label="In this section"><a href="create-listing.html" aria-current="page">Create listing</a><a href="photo-tips.html">Photo tips</a><a href="price-guide.html">Price guide</a></nav>
+<h1>Create a listing</h1><p class="lead">Fill in the form and watch your listing take shape.</p><p class="note">Prototype only. Nothing is saved or posted.</p><div class="two"><form id="cl"><label for="ls-t">Item title</label><input id="ls-t" placeholder="e.g. Intro to Statistics, 5th edition"><label for="ls-c">Category</label><select id="ls-c"><option>Textbook</option><option>Furniture</option><option>Kitchenware</option></select><label for="ls-o">Condition</label><select id="ls-o"><option>Like new</option><option selected>Good</option><option>Fair</option></select><label for="ls-p">Price ($)</label><input id="ls-p" type="number" min="1"><label for="ls-u">Pick-up point</label><select id="ls-u"><option value="">Choose a point</option><option>Library foyer</option><option>Student union entrance</option></select><label for="ls-d">Description</label><textarea id="ls-d" rows="4" placeholder="Edition, flaws, size, what is included"></textarea><p><button class="btn" id="cta-preview" type="submit">Preview listing</button></p><p class="result" id="cl-r" aria-live="polite"></p></form><div><article class="listing" style="display:block"><img id="pv-i" src="images/book.svg" alt="Preview illustration of the item" width="300" height="240"><div><span class="tag">Preview</span><h3 id="pv-t">Your item title</h3><p id="pv-c"></p><p class="price" id="pv-p"></p><p id="pv-u"></p></div></article><h2>Listing quality</h2><ul class="tick" id="ck"><li><span>&#9675;</span> Clear title (8+ characters)</li><li><span>&#9675;</span> Price set</li><li><span>&#9675;</span> Pick-up point chosen</li><li><span>&#9675;</span> Description mentions condition or flaws (30+ characters)</li></ul></div></div>
+</main>
+<footer class="site"><div class="bar foot">
+<div><strong>CampusLoop</strong><p>Student prototype for a university assessment. Not a live marketplace. Listings are samples.</p></div>
+<div><p><a href="faq.html">FAQs</a> | <a href="our-impact.html">Our impact</a> | <a href="privacy.html">Privacy</a> | <a href="contact.html">Contact</a> | <a href="sitemap.xml">Sitemap</a></p><p>&copy; 2026 CampusLoop</p></div>
+</div></footer>
+<dialog id="sdlg" aria-labelledby="sdt"><form method="dialog"><button class="close" aria-label="Close sign in">&times;</button></form><h2 id="sdt">Verified-student sign-in</h2><form id="sform"><label for="semail">University email</label><input id="semail" type="email" placeholder="you@student.uni.edu.au" required><p><button class="btn" id="cta-signin" type="submit">Check my email</button></p><p class="result" id="sres" aria-live="polite"></p></form><p class="note">Prototype demo. This only checks the format. A real launch would email a confirmation code.</p></dialog>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Optional: add your own photos here to replace the illustrations. Names: hero.jpg, textbooks-0..2.jpg, furniture-0..2.jpg, kitchenware-0..2.jpg. Use free-licence photos (Unsplash, Pexels) and credit them.

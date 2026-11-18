@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://user1562001-rgb.github.io/campusloop/sitemap.xml
